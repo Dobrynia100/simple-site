@@ -1,0 +1,189 @@
+body { 
+    margin: auto;
+}
+
+header {
+   display: block;      
+}
+ a:link,		
+a:visited {
+		color: white;
+		text-decoration: none;
+				border-style: none ;
+		}
+.header-bg {
+    background: #444444; /* Цвет фона подвала */
+    height: 130px;
+  
+}
+.header-menu {
+	
+}
+.header-menu table{
+	 font: 1.5em Verdana;
+	 position: relative;
+	top: 50px;
+	right: 15px;
+	bottom: 15px;
+	text-align: center;
+}
+   footer { 
+ display: block;
+}
+.footer-bg { 
+position:relative ;
+   background: #444444; /* Цвет фона подвала */
+  height: 192px;
+  top: 1090px;
+}
+.info table{
+	font:0.9em Verdana;
+	position: absolute;
+	left:27%;
+	right:25%;
+	top:8px;
+	text-align:left;
+}
+.copyright {
+ 
+  padding: 0 10px 10px; /* Поля */	
+  
+  
+}
+.copyright p {
+	font:0.9em Verdana;
+	position: absolute;
+	right: 10px;
+		bottom: 20px;
+	text-align: right;
+	color:#ffffff;
+}
+     #center{
+   text-align:center;}
+  
+#center .new { opacity: 0; }
+#center .div_opacity {
+    opacity: 1;
+	color:#ffffff;
+	transition: opacity .2s linear,transform .2s linear;
+	
+}
+.content{
+font:2.2em Verdana;
+position: absolute; 
+	left:28%;
+	top:50%;
+	right:30%;
+	}
+	.content h1{
+		font:3em Verdana;
+	}
+   
+   .invert {
+    filter: invert(1);
+   }
+
+  .tab {
+     float: left; 
+    border: 1px solid #ccc;
+    background-color: #424344;
+    width: 15%;
+	 opacity: 0.7;
+    height: 300px;
+	
+	
+}
+
+  .tab1 {
+    
+    float: left;
+	  padding: 0px 15px;
+    border: 1px solid #ccc;
+    width: 42%; 
+	margin-left: 27%;
+    height: 400px;
+	color: #fff;
+	 opacity: 1;
+	 background-color: #424344;
+	
+}
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+		left:30%;
+		font:0.9em/12pt Verdana
+}
+
+.tab1 button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+		left:30%;
+		 font:1.5em/30pt Verdana /*размер/интерлиньяж*/
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+
+.tab1 button:hover {
+    background-color: #ddd;
+	opacity: 0.5;
+}
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+	
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 62%;  
+    height: 1086px;
+	color: #fff;
+	 opacity: 1;
+	 background-color: #424344;
+	 
+	 
+}
+.me{
+	position: absolute;
+    float: left;
+	  padding: 0px 15px;
+    border: 1px solid #ccc;
+    width: 61%; 
+	
+	left:18%;
+    height: 1086px;
+	color: #fff;
+	 opacity: 1;
+	 background-color: #424344;
+	 font:1.2em/30pt Verdana
+}
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 1px 10px;
+   
+    cursor: pointer;
+    
+}
+.btn:hover {background: #222;}
+.mu{ font: 1.0em Verdana;}
