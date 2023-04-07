@@ -12,7 +12,7 @@ a:visited {
 				border-style: none ;
 		}
 .header-bg {
-    background: #444444; /* Цвет фона подвала */
+    background: #444444; /* Г–ГўГҐГІ ГґГ®Г­Г  ГЇГ®Г¤ГўГ Г«Г  */
     height: 130px;
   
 }
@@ -32,7 +32,7 @@ a:visited {
 }
 .footer-bg { 
 position:relative ;
-   background: #444444; /* Цвет фона подвала */
+   background: #444444; /* Г–ГўГҐГІ ГґГ®Г­Г  ГЇГ®Г¤ГўГ Г«Г  */
   height: 192px;
   top: 1090px;
 }
@@ -46,7 +46,7 @@ position:relative ;
 }
 .copyright {
  
-  padding: 0 10px 10px; /* Поля */	
+  padding: 0 10px 10px; /* ГЏГ®Г«Гї */	
   
   
 }
@@ -134,7 +134,7 @@ position: absolute;
     cursor: pointer;
     transition: 0.3s;
 		left:30%;
-		 font:1.5em/30pt Verdana /*размер/интерлиньяж*/
+		 font:1.5em/30pt Verdana /*Г°Г Г§Г¬ГҐГ°/ГЁГ­ГІГҐГ°Г«ГЁГ­ГјГїГ¦*/
 }
 
 .tab button:hover {
